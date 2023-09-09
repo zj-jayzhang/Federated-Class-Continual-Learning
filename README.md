@@ -14,6 +14,7 @@ We test the code on V100 GPU with pytorch:
 ```
 torch==2.0.1
 torchvision==0.15.2
+kornia==0.7.0
 ```
 
 ## Baseline

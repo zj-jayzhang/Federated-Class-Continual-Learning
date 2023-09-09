@@ -5,7 +5,7 @@ from tqdm import tqdm
 from torch.nn import functional as F
 from torch.utils.data import DataLoader
 from utils.inc_net import IncrementalNet
-from models.base import BaseLearner
+from methods.base import BaseLearner
 from utils.data_manager import partition_data, DatasetSplit, average_weights, setup_seed
 import copy, wandb
 from abc import ABC
