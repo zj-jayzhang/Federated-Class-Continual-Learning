@@ -37,12 +37,12 @@ CUDA_VISIBLE_DEVICES=0 python main.py --wandb=1 --group=5tasks_cifar100 --method
 
 # Citation
 ```
-@misc{zhang2023addressing,
-      title={Addressing Catastrophic Forgetting in Federated Class-Continual Learning}, 
-      author={Jie Zhang and Chen Chen and Weiming Zhuang and Lingjuan Lv},
-      year={2023},
-      eprint={2303.06937},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@InProceedings{Zhang_2023_ICCV,
+    author    = {Zhang, Jie and Chen, Chen and Zhuang, Weiming and Lyu, Lingjuan},
+    title     = {TARGET: Federated Class-Continual Learning via Exemplar-Free Distillation},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {4782-4793}
 }
 ```
