@@ -4,7 +4,7 @@ import torch
 from torch import optim
 from torch.nn import functional as F
 from torch.utils.data import DataLoader
-from models.base import BaseLearner
+from methods.base import BaseLearner
 from utils.inc_net import IncrementalNet
 from utils.data_manager import partition_data, DatasetSplit, average_weights, setup_seed
 import copy, wandb
